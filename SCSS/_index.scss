@@ -1,0 +1,120 @@
+.header {
+  background-color: black;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  max-width: 1024px;
+  margin: auto;
+  padding: 1.5rem 0;
+  width: 200px;
+  h2 {
+    font-family: $font-family-logo;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+  }
+  p {
+    @extend h2;
+    font-size: 0.8rem;
+    padding-top: 0.2rem;
+    font-weight: 600;
+  }
+}
+
+.category-heading {
+  font-size: 2rem;
+  font-family: $font-family-2;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
+.detail {
+  .category {
+    font-size: 16px;
+    font-family: $font-family-2;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    font-weight: 400;
+    color: tomato;
+  }
+  .heading {
+    font-family: $font-family-3;
+    font-size: 2rem;
+  }
+  .author {
+    font-family: $font-family-3;
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+  .para {
+    font-family: $font-family-3;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  img {
+    width: 700px;
+  }
+  .detail {
+    padding: 1rem 0;
+    max-width: 450px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.sub-section {
+  padding: 1rem 2rem 2rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #dedede;
+
+  .sub-article {
+    max-width: 350px;
+    img {
+      width: 350px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .sub-article-heading {
+      font-family: $font-family-3;
+      font-size: 1.25rem;
+      line-height: normal;
+      padding: 0.5rem 0;
+    }
+
+    .sub-article-author {
+      font-family: $font-family-3;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    .sub-article-category {
+      font-size: 14px;
+      font-family: $font-family-2;
+      text-transform: uppercase;
+      padding-top: 0.5rem;
+      font-weight: 400;
+      color: tomato;
+    }
+  }
+  .sub-sec {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.toggel {
+  cursor: pointer;
+}
+.sub-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

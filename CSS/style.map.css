@@ -1,0 +1,349 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+.logo p,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+a,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+button,
+textarea,
+input,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+  color: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  padding: 1rem 1.5rem;
+  /* padding property add space inside the input field*/
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  /*:focus selector to do something with the input field when it gets focus*/
+  outline: none;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  color: white;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+
+.success, .error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem auto -1.5rem;
+  width: 375px;
+  text-align: center;
+  line-height: normal;
+  color: #00ca00;
+  background-color: #eceaea;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.error {
+  color: red;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  background-color: black;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  max-width: 1024px;
+  margin: auto;
+  padding: 1.5rem 0;
+  width: 200px;
+}
+
+.logo h2, .logo p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+}
+
+.logo p {
+  font-size: 0.8rem;
+  padding-top: 0.2rem;
+  font-weight: 600;
+}
+
+.category-heading {
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
+.detail .category {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+  font-weight: 400;
+  color: tomato;
+}
+
+.detail .heading {
+  font-family: "PT Serif", serif;
+  font-size: 2rem;
+}
+
+.detail .author {
+  font-family: "PT Serif", serif;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.detail .para {
+  font-family: "PT Serif", serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.cover img {
+  width: 700px;
+}
+
+.cover .detail {
+  padding: 1rem 0;
+  max-width: 450px;
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sub-section {
+  padding: 1rem 2rem 2rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #dedede;
+}
+
+.sub-section .sub-article {
+  max-width: 350px;
+}
+
+.sub-section .sub-article img {
+  width: 350px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sub-section .sub-article .sub-article-heading {
+  font-family: "PT Serif", serif;
+  font-size: 1.25rem;
+  line-height: normal;
+  padding: 0.5rem 0;
+}
+
+.sub-section .sub-article .sub-article-author {
+  font-family: "PT Serif", serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.sub-section .sub-article .sub-article-category {
+  font-size: 14px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  padding-top: 0.5rem;
+  font-weight: 400;
+  color: tomato;
+}
+
+.sub-section .sub-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.toggel {
+  cursor: pointer;
+}
+
+.sub-section-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
